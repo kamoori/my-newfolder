@@ -21,7 +21,7 @@ public class Actioncammandpra {
 	      bo.findElement(By.name("txtPassword")).sendKeys("lab1");
 	      bo.findElement(By.xpath("//tbody/tr[4]/td[1]/input[1]")).click();
 	     
-
+                //this upadated by me
 	      actionobject.moveToElement(bo.findElement(By.xpath("//body/div[@id='top-menu']/ul[@id='nav']/li[@id='admin']/a[1]/span[1]"))).perform();
 	      Thread.sleep(3000);
 	   
